@@ -1,0 +1,319 @@
+/*Norman Khine - 2011 - Zeitgeist Movement */
+/*
+*	#554499 
+*   #33ccee
+*   #cc5599
+*   #cccc33
+*   #777755
+*   dull	
+*   #2200bb
+*   #00ddff
+*   #ff0088
+*   #ffff00
+*   #997733
+*   vibrant
+*
+*   hd colors from left to right
+*   db008b - deep purple
+*   992592 - plum purple
+*   7aff45 - green
+*   f1da36 - light golden yellow
+*   e8ae00 - gold yello
+
+
+http://jqueryui.com/themeroller/?ctl=themeroller&ctl=themeroller&#ffDefault=Lucida+Grande,+Lucida+Sans,+Arial,+sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=5c9ccc&bgTextureHeader=12_gloss_wave.png&bgImgOpacityHeader=55&borderColorHeader=4297d7&fcHeader=ffffff&iconColorHeader=d8e7f3&bgColorContent=fcfdfd&bgTextureContent=06_inset_hard.png&bgImgOpacityContent=100&borderColorContent=a6c9e2&fcContent=222222&iconColorContent=469bdd&bgColorDefault=dfeffc&bgTextureDefault=02_glass.png&bgImgOpacityDefault=85&borderColorDefault=c5dbec&fcDefault=2e6e9e&iconColorDefault=6da8d5&bgColorHover=d0e5f5&bgTextureHover=02_glass.png&bgImgOpacityHover=75&borderColorHover=79b7e7&fcHover=1d5987&iconColorHover=217bc0&bgColorActive=f5f8f9&bgTextureActive=06_inset_hard.png&bgImgOpacityActive=100&borderColorActive=79b7e7&fcActive=e17009&iconColorActive=f9bd01&bgColorHighlight=fbec88&bgTextureHighlight=01_flat.png&bgImgOpacityHighlight=55&borderColorHighlight=fad42e&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=02_glass.png&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=01_flat.png&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=01_flat.png&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+*
+*/
+body {
+    font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+    margin:auto 5px;width:auto;height:auto;
+    }
+
+h1, h2 {
+    font-size:116%;
+    font-weight:bold;
+}
+
+/**************************************************************************
+ * YUI overwrites 
+ **************************************************************************/
+
+
+
+/**************************************************************************
+ * MESSAGE
+ * ***********************************************************************/
+#message a {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+#message .info {
+  border-color: #333;
+  background-color: #ccc;
+  color: #000;
+}
+
+/**************************************************************************
+ * PAGE
+ * ***********************************************************************/
+#page {
+  margin: 5px 10px;
+}
+
+/**************************************************************************
+ * PORTLET
+ * ***********************************************************************/
+#portlet {
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  -moz-border-radius: 0 5px 5px 5px;
+  -webkit-border-radius: 0 5px 5px 5px;
+  border-radius: 0 5px 5px 5px;
+
+  border-color: currentColor #ddd #ddd;
+  border-right: 1px solid #ddd;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+  clear: both;
+  margin: 5px;
+  position: relative;
+  text-align: left;
+  background: #fff;
+}
+/**************************************************************************
+ * HEADER
+ * ***********************************************************************/
+ #hd{
+     background: rgb(219,0,139); /* Old browsers */
+     background: -moz-linear-gradient(45deg,  rgba(219,0,139,1) 13%, rgba(153,37,146,1) 29%, rgba(122,255,69,1) 45%, rgba(241,218,54,1) 58%, rgba(232,174,0,1) 100%); /* FF3.6+ */
+     background: -webkit-gradient(linear, left bottom, right top, color-stop(13%,rgba(219,0,139,1)), color-stop(29%,rgba(153,37,146,1)), color-stop(45%,rgba(122,255,69,1)), color-stop(58%,rgba(241,218,54,1)), color-stop(100%,rgba(232,174,0,1))); /* Chrome,Safari4+ */
+     background: -webkit-linear-gradient(45deg,  rgba(219,0,139,1) 13%,rgba(153,37,146,1) 29%,rgba(122,255,69,1) 45%,rgba(241,218,54,1) 58%,rgba(232,174,0,1) 100%); /* Chrome10+,Safari5.1+ */
+     background: -o-linear-gradient(45deg,  rgba(219,0,139,1) 13%,rgba(153,37,146,1) 29%,rgba(122,255,69,1) 45%,rgba(241,218,54,1) 58%,rgba(232,174,0,1) 100%); /* Opera 11.10+ */
+     background: -ms-linear-gradient(45deg,  rgba(219,0,139,1) 13%,rgba(153,37,146,1) 29%,rgba(122,255,69,1) 45%,rgba(241,218,54,1) 58%,rgba(232,174,0,1) 100%); /* IE10+ */
+     background: linear-gradient(45deg,  rgba(219,0,139,1) 13%,rgba(153,37,146,1) 29%,rgba(122,255,69,1) 45%,rgba(241,218,54,1) 58%,rgba(232,174,0,1) 100%); /* W3C */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db008b', endColorstr='#e8ae00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     }
+
+/**************************************************************************
+* LOGO
+* ***********************************************************************/
+#logo h1 {
+     background:url(http://cache.zmgc.net/resources/lmz-logo-190x62.png) top left no-repeat;
+     width:215px;
+     height:73px;
+     }
+
+#logo h1 a{
+    position:relative;
+    top:-15px; 
+    font-size:118%;
+    color:#511f88; 
+    white-space: nowrap;
+    line-height:92px;
+    display:block;
+    text-indent:110px;
+    text-decoration:none;
+    border:none;
+    background:none;}
+    
+#logo h1 a:hover{background:none;border:none;text-decoration: none;}
+
+/**************************************************************************
+ * MENU
+ * ***********************************************************************/
+#menu {
+  font-size: 100%;
+}
+
+#menu ul {
+  padding-left: 0;
+  white-space: nowrap;
+}
+
+#menu ul li {
+  float: right;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-right: 4px;
+}
+
+#menu ul li a {
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  display: block;
+  font-size: 1em;
+  padding: 5px 15px;
+  text-decoration: none;
+  /* normal style */
+  background: #333;
+  color: #fff;
+}
+
+#menu ul li a:hover {
+  background: #ccc;
+  color: #000;
+}
+
+#menu ul li.in-path a {
+  background: #fff;
+  color: #333;
+}
+
+/**************************************************************************
+ * Profile 
+ **************************************************************************/
+
+#lower-menu {
+    background: rgb(219,0,139); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(219,0,139,1) 0%, rgba(254,252,234,1) 11%, rgba(254,252,234,1) 57%, rgba(232,174,0,1) 93%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(219,0,139,1)), color-stop(11%,rgba(254,252,234,1)), color-stop(57%,rgba(254,252,234,1)), color-stop(93%,rgba(232,174,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  rgba(219,0,139,1) 0%,rgba(254,252,234,1) 11%,rgba(254,252,234,1) 57%,rgba(232,174,0,1) 93%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  rgba(219,0,139,1) 0%,rgba(254,252,234,1) 11%,rgba(254,252,234,1) 57%,rgba(232,174,0,1) 93%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  rgba(219,0,139,1) 0%,rgba(254,252,234,1) 11%,rgba(254,252,234,1) 57%,rgba(232,174,0,1) 93%); /* IE10+ */
+    background: linear-gradient(45deg,  rgba(219,0,139,1) 0%,rgba(254,252,234,1) 11%,rgba(254,252,234,1) 57%,rgba(232,174,0,1) 93%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ae00', endColorstr='#fefcea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding-bottom: 5px;
+}
+
+#lower-menu #user-menu {margin-top:7px;}
+#lower-menu #user-menu ul{float:right;list-style:none;margin:0 0 0 15px;padding:0;}
+#lower-menu #user-menu li{float:left;margin:0;padding:0;}
+#lower-menu #user-menu a {
+    font-size: 100%;
+    display:block;
+    color:#333;
+    text-decoration:none;
+    border:1px solid #9B8748;
+    border-top:none;
+    background:#F9E9A9;
+    margin:0 3px 0 0;
+    padding:1px 8px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+ }
+
+#lower-menu #user-menu a:hover {color:#333;padding-bottom:1px;background:#fff;}
+
+/**************************************************************************
+ * Search 
+ **************************************************************************/
+#topsearch {
+     display: inline-block;
+     margin: 3px 0 0 0;
+ }
+
+#topsearch .advanced-search {
+     display: inline-block;
+     float:right;
+     margin:0 3px 0 0;
+     width: 16px;
+     height: 16px;
+     text-indent: -9999px;
+     background: url('http://cache.zmgc.net/resources/advanced_search_icon.png') 0 0 no-repeat;
+     opacity: .2;
+ }
+
+#topsearch .search input {
+     font-size: 100%;
+     width: 75%;
+     padding: 5px 2px 5px 25px;
+     border: 1px solid #DDD;
+     border-top-color: #CCC;
+     border-bottom-color: #EAEAEA;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     background: url('http://cache.zmgc.net/resources/search_icon.png') 5px 50% no-repeat white;
+ }
+
+.placeholder-field {
+    left: 25px;
+}
+#topsearch form input.button {
+     display: none;
+ }
+ 
+#topsearch input[type="search"] {
+    padding: 10px 0 0 0;
+}
+/**************************************************************************
+ * LOCATIONS
+ * ***********************************************************************/
+#location {
+    margin-left: 10px;
+}
+
+#breadcrumbs a:hover,
+#tabs .menu a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/**************************************************************************
+ * UPPER FOOTER
+ * ***********************************************************************/
+#upper-footer {
+    background: url("../images/bg_footer_top.png") repeat-x scroll 0 0 #F8F8F8;
+    min-height: 160px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+#upper-footer .upper_footer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#upper-footer .upper_footer ul.footer_nav {
+    text-align: left;
+    float: left;
+    margin: 20px 10px;
+    position: relative;
+    width: 164px;
+}
+
+#upper-footer #tzm {
+    background: url("http://cache.zmgc.net/resources/tzm-logo.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 130px;
+    margin: 15px 20px 0 15px;
+    text-indent: -5000px;
+    width: 164px;
+}
+
+/**************************************************************************
+ * LOWER FOOTER
+ * ***********************************************************************/
+#lower-footer {
+    text-align: center;
+  }
+  
+#lower-footer .lower_footer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 85%;
+} 
+#lower-footer .lower_footer h1 {position:relative;top:-25px;background:url(/ui/core/resources/phx-logo-60x69.png) top left no-repeat;width:60px;height:60px; }
+#lower-footer .lower_footer h1 a { width:60px;line-height:60px;display:block;text-indent:-5000px;text-decoration:none;border:none;background:none;}
+#lower-footer .lower_footer ul {list-style:none;margin:0;padding:0;}
+#lower-footer .lower_footer li {float:left;margin-top:5px;padding:0;}
+#lower-footer .lower_footer a {margin-left: 1em; margin-right: 1em; margin-right: 1em;text-decoration: none;}
+#lower-footer .lower_footer a:hover {text-decoration: underline;}
+
+.space { width:65px; }
+
+.horizontal-up  {
+  width: 100%;
+  border-top: 1px solid gray;
+  padding: 5px 0;
+  float: middle;
+  min-height: 5px;
+  background: url('/ui/common/images/admin-background-up.png') top left repeat-x #b8b8b8;
+}
