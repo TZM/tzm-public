@@ -279,7 +279,7 @@ h1, h2 {
 }
 
 #upper-footer #tzm {
-    background: url("http://cache.zmgc.net/resources/tzm-logo.png") no-repeat scroll 0 0 transparent;
+    background: url(http://cache.zmgc.net/resources/tzm-logo.png) no-repeat scroll 0 0 transparent;
     float: left;
     height: 130px;
     margin: 15px 20px 0 15px;
@@ -300,7 +300,7 @@ h1, h2 {
     margin-right: auto;
     font-size: 85%;
 } 
-#lower-footer .lower_footer h1 {position:relative;top:-25px;background:url(/ui/core/resources/phx-logo-60x69.png) top left no-repeat;width:60px;height:60px; }
+#lower-footer .lower_footer h1 {position:relative;top:-25px;background:url(http://cache.zmgc.net/resources/phx-logo-60x69.png) top left no-repeat;width:60px;height:60px; }
 #lower-footer .lower_footer h1 a { width:60px;line-height:60px;display:block;text-indent:-5000px;text-decoration:none;border:none;background:none;}
 #lower-footer .lower_footer ul {list-style:none;margin:0;padding:0;}
 #lower-footer .lower_footer li {float:left;margin-top:5px;padding:0;}
