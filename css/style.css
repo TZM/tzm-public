@@ -234,7 +234,7 @@ h1, h2 {
 .placeholder-field {
     left: 25px;
 }
-#topsearch form input.button {
+#topsearch .button form input.button {
      display: none;
  }
  
